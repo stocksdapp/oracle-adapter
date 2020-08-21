@@ -1,0 +1,10 @@
+name: masw.info
+description: Masw.info real-time stock price API adapter.
+node_identifier: masw
+platforms:
+  - Docker
+data_sources:
+  - name: Masw.info
+    url: https://masw.info
+parameters:
+  - ticker
